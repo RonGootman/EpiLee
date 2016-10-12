@@ -1,0 +1,609 @@
+body {
+	font-family: 'Alef', sans-serif;
+	position: relative;
+	padding: 0px;
+}
+
+h2 {
+	color: #005072;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	font-size: 36px;
+}
+
+.facebook-icon {
+	position: fixed;
+    z-index: 2000;
+    top: 21px;
+    left: 13px;
+}
+
+.facebook-icon img {
+	height: 38px;
+}
+
+a:hover {
+	text-decoration: none;
+	/*padding: 1px; */
+}
+
+a.call-to-action:hover {
+	background-color: #AB96FF;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #008a92;
+}
+
+.navbar-inverse .navbar-nav>li>a.contact-nav:hover {
+	background-color: #005072;
+}
+
+.top-bar {
+	background-color: #DBDBDB;
+}
+
+.navbar-inverse {
+	background: #F8EFFF;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+	border: none;
+}
+
+.bs-example-navbar-collapse-1 {
+	display: flex;
+}
+
+.navbar-header {
+	float: right;
+}
+
+.navbar-brand {
+	height: inherit;
+}
+
+.epilee-logo {
+	height: 50px;
+}
+
+.navbar-nav {
+	font-size: 20px;
+	padding: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #005072;
+}
+
+.navbar-nav>li {
+	float: right;
+}
+
+.navbar-inverse .navbar-nav>li>a.contact-nav {
+    color: white;
+}
+
+.contact-nav {
+	background-color: #078A93;
+    border-radius: 6px;
+    color: white;
+}
+
+.cover-img {
+	background: center center no-repeat;
+	background-size: cover; 
+	height: 599px;
+	position: relative;
+}
+
+.jumbo-content {
+	position: absolute;
+	bottom: 40px;
+}
+
+.slogan, .call-to-action {
+	margin-top: 0px;
+}
+
+.slogan {
+	font-size: 48px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.call-to-action {
+	font-size: 36px;
+    color: #AB96FF;
+    padding: 0px 15px;
+    border: 5px solid #AB96FF;
+    border-radius: 12px;
+}
+
+.benefits-pointers .row {
+	display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgba(171, 150, 255, 0.16);
+}
+
+.benefits-pointers	 .last-row-pointer {
+	border-bottom: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.benefits-pointers .img-responsive {
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.benefit-text {
+	display: flex;
+    font-size: 32px;
+    align-items: center;
+}
+
+.benefit-text p {
+	margin: auto;
+	text-align: center;
+}
+
+.more-info {
+	margin-top: 60px;
+}
+
+.benefit-content,
+.testimonial-content {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:-5em;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+}
+
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+@-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+  
+  .arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 3s;
+  }
+
+
+
+.benefits-row p {
+	font-size: 22px;
+	padding-right: 40px;
+	background-image: url('../img/checkedmark.png');
+	background-repeat:no-repeat;
+    background-position:right top;
+    height: 80px;
+}
+
+.more-info a {
+	font-size: 24px;
+	color: #005072;
+}
+
+.more-info span {
+	border-bottom: 3px solid #005072;
+}
+
+.testimonial-content {
+	background-color: #F8F8F8;
+}
+
+.testimonial-content iframe {
+	width: 100%;
+	height: 450px;
+}
+
+.footer {
+	background-color: #9985ec;
+}
+
+/************
+Method-Info
+***********/
+
+.banner-info {
+	background: bottom center no-repeat;
+	background-size: cover; 
+	height: 85vh;
+	position: relative;
+}
+
+.banner-content {
+	position: absolute;
+	bottom: 0px;
+	background-color: white;
+}
+
+.banner-content h4 {
+		font-size: 48px;
+		text-align: center;
+		color: #005072;
+}
+
+
+.faq-content {
+	padding-top: 60px;
+	padding-bottom: 60px;
+ }
+
+ .faq-row {
+ 	margin-bottom: 20px;
+ }
+
+.faq-content { position:relative; }
+.faq-content h3	{ 
+	cursor:pointer;
+	font-size: 24px;
+	color: #005072; 
+	margin: 0px 0px 20px
+}
+.faq-content h3.active	{ 
+	color:#AB96FF;
+}
+.faq-content div   { position:relative; }
+.faq-content div p	{
+ 	padding:0; 
+ 	margin-bottom:15px; 
+ 	font-size: 18px;
+}
+
+.navbar-toggle {
+	margin-top: 15px; 
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #005572;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 6px;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+/*********
+Contact Page
+*********/
+
+.three-columns {
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.form-div {
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.in-development {
+	font-size: 12px;
+	color: red;
+}
+
+.flex-middle {
+	display: flex;
+    justify-content: center;
+}
+
+.basic-info {
+	font-size: 24px;
+}
+
+.btn-purple {
+    background-color: #005072;
+    color: white;
+}
+
+.contant-me-content {
+	margin-top: 80px;
+	padding-top: 60px;
+	padding-bottom: 0px;
+}
+
+.contact-page-header {
+	text-align: center;
+	font-size: 48px;
+	color: #005072;
+	margin: 0 0 40px 0;
+}
+
+.biz-box {
+	margin-bottom: 40px;
+}
+
+.biz-info-box {
+	background-color: #DBD2FF;
+}
+
+.biz-info-box h6 {
+	font-size: 30px;
+    font-weight: 600;
+}
+
+.biz-info-box p {
+	font-size: 20px;
+}
+
+.biz-info-box span {
+	margin-left: 15px;
+}
+
+.btn-success-custom {
+	background-color: #005072;
+	color: white;
+}
+
+#contact-form input{
+	background-color: #dbd2ff;
+    border-radius: 0px;
+    border: 0px;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+#contact-form .form-control {
+	background-color: #dbd2ff;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.padd-left {
+	padding-right: 0px;
+}
+
+.padd-right {
+	padding-left: 0px;
+}
+
+.class123_maintable {
+    font-family: 'Alef', sans-serif;
+    font-weight: 400;
+}
+
+#id123-title21236889,
+#id123-title21236868,
+#id123-title21236869,
+#id123-title21236870 {
+	font-family: 'Alef', sans-serif;
+    font-weight: 400;
+}
+
+#id123-title21236869,
+#id123-title21236889,
+#id123-title21236870 {
+	margin-top: 15px;
+}
+
+.powered-by-123 {
+	display: none;
+}
+
+
+.form-label-right {
+	float: right;
+}
+
+
+/***********
+About
+************/
+
+.about-content{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.about-content .about-intro {
+	font-size: 32px;
+	margin-bottom: 40px;
+}
+
+.about-content p {
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 991px) {
+
+	#contact-form {
+		margin-bottom: 40px;
+	}
+
+	.biz-info-box {
+	    margin: 0 15px;
+	}
+
+	.padd-left {
+		padding-right: 15px;
+	}
+
+	.padd-right {
+		padding-left: 15px;
+	}
+
+	.benefits-pointers .row {
+		flex-direction: column;
+	}	
+
+	.benefits-pointers .img-responsive {
+		margin: auto;
+	}
+
+	.benefit-text {
+		margin-top: 20px;
+	}
+
+	.three-columns {
+		flex-direction: column;
+	}
+
+	.form-div {
+		border-left: 0px;
+		margin-bottom: 40px;
+	}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+	.slogan {
+		font-size: 36px;
+	}
+
+	.navbar-header {
+		width: 100%;
+	}
+
+	#bs-example-navbar-collapse-1 {
+		width: 100%;
+	}
+
+	.navbar-nav>li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.facebook-icon {
+		left: 0px;
+		right: 80px;
+	}
+
+}
+
+@media (max-width: 460px) {
+
+	.banner-info {
+		height: 500px;
+	}
+
+	.jumbo-content {
+		width: 100%;
+	}
+
+	.slogan {
+		font-size: 28px;
+		text-align: center;
+	}
+
+	.benefit-text p {
+		font-size: 24px;
+	}
+
+	.jumbo-content h4{
+		text-align: center;
+	}
+
+	.banner-content {
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.49);
+	}
+
+	.banner-content h4 {
+		font-size: 30px;
+		color: white;
+	}
+
+	.faq-content h3 {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.faq-content div p {
+		font-size: 18px;
+	}
+
+	.benefits-row p {
+		height: 120px;
+	}
+
+
+
+}
+
+
